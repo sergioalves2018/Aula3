@@ -1,0 +1,12 @@
+Criar banco:
+
+create database chat;
+use chat;
+
+CREATE TABLE mensagens (
+    id integer identity PRIMARY KEY,
+    nome varchar(255),
+    msg varchar(255)
+);
+
+select * from mensagens;
